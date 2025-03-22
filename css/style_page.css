@@ -12,7 +12,7 @@ font-family: "Bookman Old Style", serif;
 .news
 {
 	width: 1000px;
-	height: 450px;
+	height: 700px;
 	margin: 50px auto;
 	border-radius: 2px;
 	background:white;
@@ -55,8 +55,8 @@ font-family: "Bookman Old Style", serif;
 }
 #goBack
 {
-	width: 175px;
-	height: 65px;
+	width: 300px;
+	height:130px;
 	background-color: white;
 	text-align: center;
 	position:relative;
@@ -102,8 +102,8 @@ font-family: "Bookman Old Style", serif;
 
 #Mechov
 {
-	width: 150px;
-	height: 60px;
+	width: 250px;
+	height: 70px;
 	background-color:lightgreen;
 	text-align: center;
 	position:relative;
@@ -127,8 +127,8 @@ font-family: "Bookman Old Style", serif;
 
 #Ognev
 {
-	width: 150px;
-	height: 60px;
+	width: 250px;
+	height: 70px;
 	background-color:indianred ;
 	text-align: center;
 	position:relative;
@@ -152,8 +152,8 @@ font-family: "Bookman Old Style", serif;
 
 #Kam
 {
-	width: 150px;
-	height: 60px;
+	width: 300px;
+	height: 70px;
 	background-color: darkgrey;
 	text-align: center;
 	position:relative;
@@ -177,8 +177,8 @@ font-family: "Bookman Old Style", serif;
 
 #dal
 {
-	width: 150px;
-	height: 60px;
+	width: 270px;
+	height: 70px;
 	background-color:skyblue;
 	text-align: center;
 	position:relative;
@@ -202,8 +202,8 @@ font-family: "Bookman Old Style", serif;
 
 #ole
 {
-	width: 150px;
-	height: 60px;
+	width: 250px;
+	height: 70px;
 	background-color:turquoise;
 	text-align: center;
 	position:relative;
@@ -228,7 +228,7 @@ font-family: "Bookman Old Style", serif;
 #nas
 {
 	width: 150px;
-	height: 60px;
+	height: 35px;
 	background-color:turquoise;
 	text-align: center;
 	position:relative;
@@ -250,129 +250,12 @@ font-family: "Bookman Old Style", serif;
 	background-color:mediumturquoise;
 }
 
-.modal {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(0, 0, 0, 0.5);
-	z-index: 1050;
-	opacity: 0;
-	transition: opacity 200ms ease-in;
-	pointer-events: none;
-	margin: 0;
-	padding: 0;
-}
 
-.modal:target {
-	opacity: 1;
-	pointer-events: auto;
-	overflow-y: auto;
-}
-
-.modal-dialog {
-	position: relative;
-	width: auto;
-	margin: 10px;
-}
-
-@media (min-width: 576px) {
-	.modal-dialog {
-		max-width: 500px;
-		margin: 30px auto;
-	}
-}
-
-.modal-content {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	background-color: #fff;
-	background-clip: padding-box;
-	border: 1px solid rgba(0, 0, 0, .2);
-	border-radius: .3rem;
-	outline: 0;
-}
-
-@media (min-width: 768px) {
-	.modal-content {
-		box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-	}
-}
-
-.modal-header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 15px;
-	border-bottom: 1px solid #eceeef;
-}
-
-.modal-title {
-	margin-top: 0;
-	margin-bottom: 0;
-	line-height: 1.5rem;
-	font-size: 1.25rem;
-	font-weight: 500;
-}
-
-.close {
-	float: right;
-	font-family: sans-serif;
-	font-size: 24px;
-	font-weight: 700;
-	line-height: 1;
-	color: #000;
-	text-shadow: 0 1px 0 #fff;
-	opacity: .5;
-	text-decoration: none;
-}
-
-.close:focus, .close:hover {
-	color: #000;
-	text-decoration: none;
-	cursor: pointer;
-	opacity: .75;
-}
-
-.modal-body {
-	position: relative;
-	flex:1 1 auto;
-	padding: 15px;
-	overflow: auto;
-}
-
-#but
-{
-	width: 150px;
-	height:60px;
-	background-color: white;
-	text-align: center;
-	position:relative;
-	top: 1px;
-	left: 1px;
-	margin: auto;
-	border-radius: 50px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	font-size: 18pt;
-	padding: 15px;
-
-}
-#but a
-{
-	text-decoration: none;
-	color:black;
-}
-#but:hover
-{
-	background-color: lightblue;
-}
 
 .new
 {
 	width: 1000px;
-	height: 250px;
+	height: 500px;
 	margin: 50px auto;
 	border-radius: 2px;
 	background:white;
@@ -480,8 +363,8 @@ font-family: "Bookman Old Style", serif;
 
 #but2
 {
-	width: 150px;
-	height: 60px;
+	width: 200px;
+	height: 70px;
 	background-color: skyblue;
 	text-align: center;
 	position:relative;
@@ -502,4 +385,245 @@ font-family: "Bookman Old Style", serif;
 #but2:hover
 {
 	background-color:deepskyblue;
+}
+
+
+
+
+.modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 1050;
+	opacity: 0;
+	transition: opacity 200ms ease-in;
+	pointer-events: none;
+	margin: 0;
+	padding: 0;
+}
+
+.modal:target {
+	opacity: 1;
+	pointer-events: auto;
+	overflow-y: auto;
+}
+
+.modal-dialog {
+	position: relative;
+	width: auto;
+	margin: 10px;
+}
+
+@media (min-width: 576px) {
+	.modal-dialog {
+		max-width: 500px;
+		margin: 30px auto;
+	}
+}
+
+.modal-content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: .3rem;
+	outline: 0;
+}
+
+@media (min-width: 768px) {
+	.modal-content {
+		box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	}
+}
+
+.modal-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+	border-bottom: 1px solid #eceeef;
+}
+
+.modal-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.5rem;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.close {
+	float: right;
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .5;
+	text-decoration: none;
+}
+
+.close:focus, .close:hover {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: .75;
+}
+
+.modal-body {
+	position: relative;
+	flex:1 1 auto;
+	padding: 15px;
+	overflow: auto;
+}
+
+#but
+{
+	width: 300px;
+	height: 75px;
+	background-color: white;
+	text-align: center;
+	position:relative;
+	top: 1px;
+	margin: auto;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-size: 18pt;
+	padding: 15px;
+
+}
+#but a
+{
+	text-decoration: none;
+	color:black;
+}
+#but:hover
+{
+	background-color: lightblue;
+}
+
+
+.modal3 {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 1050;
+	opacity: 0;
+	transition: opacity 200ms ease-in;
+	pointer-events: none;
+	margin: 0;
+	padding: 0;
+}
+
+.modal3:target {
+	opacity: 1;
+	pointer-events: auto;
+	overflow-y: auto;
+}
+
+.modal-dialog3 {
+	position: relative;
+	width: auto;
+	margin: 10px;
+}
+
+@media (min-width: 576px) {
+	.modal-dialog3 {
+		max-width: 600px;
+		margin: 30px auto;
+	}
+}
+
+.modal-content3 {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: .3rem;
+	outline: 0;
+}
+
+@media (min-width: 768px) {
+	.modal-content3 {
+		box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	}
+}
+
+.modal-header3 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+	border-bottom: 1px solid #eceeef;
+}
+
+.modal-title3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.5rem;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.close {
+	float: right;
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .5;
+	text-decoration: none;
+}
+
+.close:focus, .close:hover {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: .75;
+}
+
+.modal-body3 {
+	position: relative;
+	flex:1 1 auto;
+	padding: 15px;
+	overflow: auto;
+}
+
+#but3
+{
+	width: 280px;
+	height: 80px;
+	background-color: white;
+	text-align: center;
+	position:relative;
+	top: 10px;
+	left: -300px;
+	margin: auto;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-size: 18pt;
+	padding: 15px;
+
+}
+#but3 a
+{
+	text-decoration: none;
+	color:black;
+}
+#but3:hover
+{
+	background-color:skyblue;
 }
