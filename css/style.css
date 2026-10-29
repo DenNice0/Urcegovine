@@ -20,6 +20,7 @@ body {
 	font-weight: bold;
 	letter-spacing: 1.8pt;
 	word-spacing: 1.8 pt;
+	
 }
 
 .preview{
@@ -28,7 +29,7 @@ body {
 	overflow: hidden;
 	padding: 10px;
 	box-shadow:0 0 10px rgba(0,0,0,0.5);
-	border-radius: 5px;
+	border-radius: 15px;
 	background: white;
 	float: left;
 	margin-left: 50px;
@@ -38,10 +39,13 @@ body {
 .preview a {
 	text-decoration: none;
 	color:black;
+	position: relative;
+	margin-left: 100;
+
 }
 
 .preview:hover {
 	box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
- 
+
